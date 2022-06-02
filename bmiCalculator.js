@@ -9,7 +9,7 @@
 */
 
 function bmiCalculator(weight, height) {
-    var bmiCalculator = Math.floor(weight/Math.pow(height, 2));//(height**2) optimized to ES6 haha
+    var bmiCalculator = Math.round(weight/Math.pow(height, 2));//(height**2) optimized to ES6 haha
     return bmiCalculator;
 }
 console.log(bmiCalculator(65,1.8));
