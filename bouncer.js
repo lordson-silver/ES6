@@ -6,8 +6,18 @@ var guestList = ["Lordson", "Stiles", "Michael", "Mimi", "Preshila", "Raymond"];
     alert Welcome theirName else aler Sorry theirName, I dont know you.
 */
 function bouncer(yourName) {
-    if (guestList.includes(yourName) == true) {
-        return ("Welcome " + yourName);
-    } else { return ("Sorry " + yourName + ", I dont know you."); }
+  if (guestList.includes(yourName) == true) {
+    return "Welcome " + yourName;
+  } else {
+    return "Sorry " + yourName + ", I dont know you.";
+  }
 }
-alert(bouncer(prompt("What is your name?")));
+// alert(bouncer(prompt("What is your name?")));
+
+// GABBIE
+const checkList = (yourName) => {
+  guestList.includes(yourName)
+    ? console.log(`Welcome ${yourName}`)
+    : console.log(`Sorry ${yourName}, I dont know you`);
+};
+checkList("Gabbie");

@@ -5,13 +5,21 @@
 // For this challenge, assume there are 365 days in a year, 52 weeks in a year and 12 months in a year
 
 function lifeInWeeks(age) {
-    let assAge = 90 - age;
-    var x = (assAge * 365);
-    var y = (assAge * 52);
-    var z = (assAge * 12);
-    console.log("Assuming you live Until 90 years old.");
-    console.log("You have " + x + " days left.")
-    console.log(y + " weeks left.");
-    console.log(z + " months left.");
+  let assAge = 90 - age;
+  var x = assAge * 365;
+  var y = assAge * 52;
+  var z = assAge * 12;
+  console.log("Assuming you live Until 90 years old.");
+  console.log("You have " + x + " days left.");
+  console.log(y + " weeks left.");
+  console.log(z + " months left.");
 }
 lifeInWeeks(12);
+
+// GABBIE
+const lifeLeft = (age) =>
+  `Assuming you live until 90, you have ${(90 - age) * 365} days left, ${
+    (90 - age) * 52
+  } weeks left, ${(90 - age) * 12}`;
+
+console.log(lifeLeft(12));
