@@ -1,0 +1,32 @@
+<!--
+onchange:	An HTML element has been changed
+onclick:	The user clicks an HTML element
+onmouseover:	The user moves the mouse over an HTML element
+onmouseout:	The user moves the mouse away from an HTML element
+onkeydown:	The user pushes a keyboard key
+onload:	The browser has finished loading the page
+https://www.w3schools.com/js/js_events.asp
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Author" content="Lordson Silver">
+    <title>events </title>
+  </head>
+  <body>
+    <button onclick="document.getElementById('main').innerText = Date()">Get full Date</button>
+    <p id="main"></p>
+    <button onclick="getDate()">Get date</button>
+    <p id="foo"></p>
+    
+    <script type="text/javascript" charset="utf-8">
+  let getDate = () => {
+  document.getElementById("foo").innerText = Date();
+}
+    </script>
+  </body>
+</html>
