@@ -15,6 +15,7 @@ song.title ||= "Wild Dreams";
 console.log(song.title);
 // Expected output "Wild Dreams"
 
-console.log(song.artiste + " - " + song.album)
+console.log(`${song.artiste} - ${song.album}`);
+//song.artiste + " - " + song.album)
 
 // The logical OR assignment (x ||= y) operator only assigns if x is falsy. 
