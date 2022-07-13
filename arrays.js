@@ -1,40 +1,46 @@
 // Fill arrays with data
 
-let newArray = new Array(4).fill("Hello World");
-console.log(newArray);
+// let newArray = new Array(4).fill("Hello World");
+// console.log(newArray);
 
 // Remove duplicate from arrays
 
 let dup = [
-    "Facebook", 
-    "Twitter", 
-    "Amazon", 
-    "Facebook", 
+    "Facebook",
+    "Twitter",
+    "Amazon",
+    "Facebook",
     "Tesla",
-    "Apple", 
-    "Netflix", 
-    "Amazon", 
+    "Apple",
+    "Netflix",
+    "Amazon",
     "Twitter"
   ]
   let noDup = Array.from(new Set(dup));
   console.log(noDup);
-  
+
   // Merge arrays
   let array1 = [
-      "Twitter", 
-      "Facebook", 
+      "Twitter",
+      "Facebook",
       "Tesla",
       "Apple"
-    ]
+    ];
   let array2 = [
-      "Amazon", 
-      "Netflix", 
-      "Microsoft", 
-      "Dropbox", 
+      "Amazon",
+      "Netflix",
+      "Microsoft",
+      "Dropbox",
       "Slack"
-    ]
+    ];
   let techBrands = [
      ...array1,
      ...array2
-    ] 
-  console.log(techBrands);
+   ];
+
+  techBrands.push("Xiaomi");
+  techBrands.pop();
+
+    for (var i = 0; i < techBrands.length; i++) {
+      console.log(techBrands[i])
+    }

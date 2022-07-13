@@ -1,4 +1,13 @@
 // Using creator functions
+// Creating Objects
+
+let Car = {
+  name : "Tesla",
+  price : 50000,
+  hasAutoPilot : function() {
+    return(console.log(Has AutoPilot);)
+  }
+};
 
 function HouseKeeper(name, age, yearsOfExperience, languages) {
     this.name = name;
@@ -18,7 +27,7 @@ var house2 = new Apartment("Eagles Pride", 22);
 
 
 function User(userName, email, password) {
+    this.userName = userName;
     this.email = email;
     this.password = password;
-    this.userName = userName;
 };
