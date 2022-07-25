@@ -28,7 +28,7 @@ This project includes:
 
 ***
 
-### [ES6](https://github.com/lordson-silver/ES6)
+### [ES6https://www.w3schools.com/js/js_es6.asp]()
 
 ***
 
