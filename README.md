@@ -28,7 +28,7 @@ This project includes:
 
 ***
 
-### [ES6https://www.w3schools.com/js/js_es6.asp]()
+### [ES6](https://www.w3schools.com/js/js_es6.asp)
 
 ***
 
