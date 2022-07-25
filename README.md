@@ -43,3 +43,7 @@ This project includes:
 
 _Feel free to._
 
+### License
+MIT License
+
+(c) Lordson Silver 
