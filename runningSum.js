@@ -8,4 +8,3 @@ do {
 	num += Number(input);
 	console.log(output);
 } while (input>=0)
-

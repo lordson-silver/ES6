@@ -35,7 +35,10 @@ This project includes:
 ## Running the project locally 
 
 1. Clone the repo locally 
-2. Open the index file on any Web browser (chrome preferably)
+2. Run `npm i` to install the readline-sync dependency
+3. Run `node <filename.js>`
+4. Step 2,3 will only work if you have node installed, if you don't, click [Node JS official website](https://nodejs.org) to download and install on your local machine. 
+5. Do step 2 and 3 again. 
 
 ***
 
