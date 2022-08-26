@@ -1,3 +1,6 @@
+const readlineSync = require('readline-sync');
+//readlineSync.question()
+
 var guestList = ["Lordson", "Stiles", "Michael", "Mimi", "Preshila", "Raymond"];
 /*
     Create a program that prompts a user to imput their name
@@ -20,4 +23,5 @@ const checkList = (yourName) => {
     ? console.log(`Welcome ${yourName}`)
     : console.log(`Sorry ${yourName}, I dont know you`);
 };
-checkList("Gabbie");
+
+checkList(readlineSync.question("What is your name? "));

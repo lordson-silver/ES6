@@ -19,3 +19,4 @@ console.log(`${song.artiste} - ${song.album}`);
 //song.artiste + " - " + song.album)
 
 // The logical OR assignment (x ||= y) operator only assigns if x is falsy. 
+const readlineSync = require('');\nreadlineSync.question()

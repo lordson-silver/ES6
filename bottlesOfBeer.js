@@ -1,6 +1,9 @@
 // 99 bottles of Beer on the wall, 99 bottles of Beer.
 // Take one down pass it around 98 bottles of Beer on the wall.
 
+const readlineSync = require('readline-sync');
+//readlineSync.question()
+
 var noOfBeer = 99;
 function beer(noOfBeer) {
   while (noOfBeer >= 0) {

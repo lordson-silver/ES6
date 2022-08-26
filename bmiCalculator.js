@@ -8,12 +8,15 @@
         bmi should equal around 20 in this case.
 */
 
+const readlineSync = require('readline-sync');
+//readlineSync.question()
+
 function bmiCalculator(weight, height) {
-  var bmiCalculator = Math.round(weight / Math.pow(height, 2)); //(height**2) optimized to ES6 haha
+  let bmiCalculator = Math.round(weight / Math.pow(height, 2)); //(height**2) optimized to ES6 haha
   return bmiCalculator;
 }
-console.log(bmiCalculator(65, 1.8));
+console.log("Your BMI is: " + bmiCalculator(readlineSync.question("Input your weight: "), readlineSync.question("Input your height: ")));
 
 // Gabbie
 const bmiCal = (w, h) => Math.round(w / h ** 2);
-console.log(bmiCal(64, 1.8));
+//console.log(bmiCal(64, 1.8));

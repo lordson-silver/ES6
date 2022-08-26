@@ -5,6 +5,9 @@
 
 // Remove duplicate from arrays
 
+const readlineSync = require('readline-sync');
+//readlineSync.question();
+
 let dup = [
     "Facebook",
     "Twitter",
@@ -43,4 +46,5 @@ let dup = [
 
     for (var i = 0; i < techBrands.length; i++) {
       console.log(techBrands[i])
-    }
+    };
+

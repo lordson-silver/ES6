@@ -1,4 +1,4 @@
-// (Q1) Display your name usind do-while loop
+// (Q1) Display your name using do-while loop
 // Exit controlled statement
 
 let x = 5;
