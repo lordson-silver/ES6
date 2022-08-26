@@ -1,0 +1,27 @@
+{
+  "name": "es6",
+  "version": "2.0.0",
+  "description": "A collection of JS projects",
+  "main": "alert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordson-silver/ES6.git"
+  },
+  "keywords": [
+    "npm",
+    "git",
+    "js"
+  ],
+  "author": "lordson-silver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordson-silver/ES6/issues"
+  },
+  "homepage": "https://github.com/lordson-silver/ES6#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
